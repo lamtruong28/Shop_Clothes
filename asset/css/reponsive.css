@@ -121,29 +121,25 @@
     .about .lists-about {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
         font-size: 16px;
+        text-align: center;
     }
 
     .about .lists-about li {
-        width: 33.33333%;
+        width: 50%;
         text-align: justify;
     }
 
     .contact__container .store {
-        padding-left: 0;
+       padding: 0;
+       text-align: center;
     }
 
-    .store .information {
-        display: flex;
+    #container__footer .top-up {
+        padding: 13px 24px;
     }
 
-    .store .info {
-        width: 50%;
-    }
-
-    .store .accept {
-        margin-top: 0;
-        width: 50%;
+    #container__footer .icon-lists i {
+        font-size: 32px;
     }
 }
