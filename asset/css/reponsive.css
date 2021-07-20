@@ -1,0 +1,149 @@
+/* PC*/
+@media (min-width: 64em) {
+    
+}
+
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    
+    #sidebar {
+        display: none;
+        padding: 0 30px;
+        width: 35%;
+        z-index: 10;
+    }
+
+    @keyframes sidebar-appear {
+        from {
+            width: 0;
+        }
+        to {
+            width: 35%;
+        }
+    }
+
+    @keyframes sidebar-hidden {
+        from {
+            width: 35%;
+        }
+        to {
+            width: 0%;
+        }
+    }
+
+    #sidebar .heading {
+        font-size: 30px;
+        font-weight: 400;
+        top: 0;
+        left: 0;
+    }
+
+    #container__header {
+        background-color: #000;
+        color: #fff;
+    }
+        
+    .close-menu {
+        display: block !important;
+    }
+    .logo-mobile {
+        display: block;
+    }
+
+    .header__icon .menu-mobile {
+        display: inline-block;
+    }
+
+    #container__header span {
+        display: none;
+    }
+
+    #main__container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .modal .modal__container {
+        display: none;
+    }
+
+    .product-lists .item {
+        width: 49%;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #sidebar {
+        width: 50%;
+        padding: 0;
+    }
+
+    #sidebar .heading {
+        margin: 4px 16px 16px;
+    }
+
+    .icon__search {
+        display: none !important;
+    }
+
+    #container__slider .slider__content {
+        display: none;
+    }
+
+    .product-lists .item {
+        width: 100%;
+    }
+
+    .item .btn-buy {
+        padding: 14px 24px;
+    }
+
+    .contact__container {
+        display: block;
+    }
+
+
+    .contact__container .contact__content {
+        width: 100%;
+    }
+
+    .contact__content .contact-form input {
+        padding: 12px 8px;
+    }
+
+    .about .lists-about {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+
+    .about .lists-about li {
+        width: 33.33333%;
+        text-align: justify;
+    }
+
+    .contact__container .store {
+        padding-left: 0;
+    }
+
+    .store .information {
+        display: flex;
+    }
+
+    .store .info {
+        width: 50%;
+    }
+
+    .store .accept {
+        margin-top: 0;
+        width: 50%;
+    }
+}
